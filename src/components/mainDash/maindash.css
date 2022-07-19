@@ -1,0 +1,43 @@
+.maindash{
+    display: grid;
+    grid-template-rows: 5rem auto;
+}
+
+.header2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    height: 300vh;
+    padding: 0 15px;
+}
+
+.span{
+    font-size: 15px;
+    color: #999;
+}
+
+.searchCon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.searchCon input{
+    border-radius: 5px;
+    border-style: none;
+    background-color: #999;
+}
+.btn{
+    display: flex;
+}
+
+.btn img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

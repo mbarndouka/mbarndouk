@@ -1,0 +1,111 @@
+.sidebar{
+    display: grid;
+    grid-template-rows: 7rem 15rem auto;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 5%;
+    padding: 0;
+}
+.containerCon>p{
+    height: 5px;
+}
+
+
+.span{
+    font-size: 10px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+
+.menu{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.menuItems{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    margin-top: 20%;
+    align-items: flex-start;
+    gap: 1rem;
+    height: 2rem;
+    position: relative;
+    font-size: 14px;
+}
+.img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 1px;
+}
+
+.menuItem{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    height: 40px;
+}
+
+.lines{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.menuCon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.name{
+    font-size: 10px;
+    color: #000;
+}
+
+.box{
+    font-size: 12px;
+    color: #999;
+}
+
+.post{
+    font-size: 12px;
+    color: #999;
+}
+
+
